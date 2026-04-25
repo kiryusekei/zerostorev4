@@ -22,9 +22,9 @@ from telegram.constants import ParseMode
 # ══════════════════════════════════════════════
 # ─────────────────────────────────────────────────
 #  EDIT HANYA DI SINI — ISI TOKEN & ADMIN ID KAMU
-BOT_TOKEN  = "ISI_TOKEN_BOTFATHER_DISINI"
-ADMIN_IDS  = [123456789]   # ganti dengan ID Telegram kamu
-API_KEY    = "8d5ab019-1c72-470c64730edf3"
+BOT_TOKEN  = "8572342585:AAGP2FBBjlDHLzbviDzd6GxO7DtJNSQqxH8"
+ADMIN_IDS  = [1908273541]   # ganti dengan ID Telegram kamu
+API_KEY    = "ec4365f2-e476-4d93-8bc0-d05be06e75c3"
 # ─────────────────────────────────────────────────
 PAY_BASE      = "https://payment.vpnnexus.biz.id/api"
 DB_PATH       = "store.db"
