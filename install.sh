@@ -13,7 +13,7 @@ apt install -y python3 python3-venv python3-pip git
 # Clone repo
 cd /root
 rm -rf autopay_bot
-git clone https://github.com/USERNAME/autopay-bot.git autopay_bot
+git clone https://github.com/kiryusekei/v4/autopay-bot.git autopay_bot
 
 cd autopay_bot
 
