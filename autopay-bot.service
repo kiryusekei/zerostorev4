@@ -1,0 +1,28 @@
+[Unit]
+Description=Telegram AutoPay Store Bot - FTSTORESZ
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+# ─────────────────────────────────────────────
+#  EDIT HANYA BAGIAN INI
+# ─────────────────────────────────────────────
+User=root
+WorkingDirectory=/root/autopay_bot
+ExecStart=/usr/bin/python3 /root/autopay_bot/bot.py
+# ─────────────────────────────────────────────
+#  Token & Admin ID sudah diisi di bot.py
+#  Tidak perlu diisi lagi di sini
+# ─────────────────────────────────────────────
+
+Restart=always
+RestartSec=5
+StartLimitInterval=60
+StartLimitBurst=5
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=autopay-bot
+
+[Install]
+WantedBy=multi-user.target
